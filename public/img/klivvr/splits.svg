@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="701" height="479" viewBox="0 0 701 479">
+  <defs>
+    <filter id="Rectangle_Copy_16" x="0" y="0" width="433" height="479" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_78" data-name="Group 78" transform="translate(-1007 -2325)">
+    <g id="UI_Element_Light_Donut_04-categories" data-name="UI Element/Light/Donut/04-categories" transform="translate(1037 2355)">
+      <g id="UI_elements_Donut_04-categories" data-name="UI elements/Donut/04-categories">
+        <g id="Mobile-chart-background">
+          <g transform="matrix(1, 0, 0, 1, -30, -30)" filter="url(#Rectangle_Copy_16)">
+            <rect id="Rectangle_Copy_16-2" data-name="Rectangle Copy 16" width="373" height="419" rx="12" transform="translate(30 30)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Labels" transform="translate(18.21 375.082)">
+          <g id="Point-03" transform="translate(252.219)">
+            <text id="Point_03" data-name="Point 03" transform="translate(20.572 17.918)" fill="#7c828a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Mohsen</tspan></text>
+            <circle id="Point_03_-_color" data-name="Point 03 - color" cx="6" cy="6" r="6" transform="translate(-0.428 6.918)" fill="#f2ca53"/>
+          </g>
+          <g id="Point-02" transform="translate(126.11)">
+            <ellipse id="Point_02_-_color" data-name="Point 02 - color" cx="5.921" cy="5.935" rx="5.921" ry="5.935" transform="translate(0 7.122)" fill="#016bff"/>
+            <text id="Point_03-2" data-name="Point 03" transform="translate(20.682 17.918)" fill="#7c828a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Nabil</tspan></text>
+          </g>
+          <g id="Point-01">
+            <circle id="Point_01_-_color" data-name="Point 01 - color" cx="6" cy="6" r="6" transform="translate(-0.209 6.918)" fill="#ed424b"/>
+            <text id="Point_03-3" data-name="Point 03" transform="translate(20.791 17.918)" fill="#7c828a" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Karim</tspan></text>
+          </g>
+        </g>
+        <path id="Divider" d="M.5,1.093,336.792.5" transform="translate(17.854 350.249)" fill="none" stroke="#d6d9dc" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+        <g id="Donut_size_02" data-name="Donut/size 02" transform="translate(76 95.593)">
+          <g id="Donut_chart" data-name="Donut chart">
+            <rect id="Rectangle_Copy_10" data-name="Rectangle Copy 10" width="222.616" height="235.02" rx="12" fill="none"/>
+            <path id="Donut_2" d="M50.885.156a5.934,5.934,0,0,1,2.682,11.561A95.712,95.712,0,0,0,9.956,34.873a5.928,5.928,0,0,1-8.071-8.685A107.543,107.543,0,0,1,50.885.156Z" transform="translate(35.524 7.453)" fill="#f2ca53"/>
+            <path id="Donut_1" d="M17.207,2.7a5.925,5.925,0,1,1,9.927,6.47,95.494,95.494,0,0,0-6.46,91.944,5.923,5.923,0,1,1-10.735,5.01A107.388,107.388,0,0,1,17.207,2.7Z" transform="translate(4.736 50.885)" fill="#016bff"/>
+            <path id="Donut_0" d="M84.524,0A107.394,107.394,0,1,1,1.332,175.254a5.926,5.926,0,1,1,9.177-7.5A95.491,95.491,0,1,0,84.524,11.87a5.935,5.935,0,0,1,0-11.87Z" transform="translate(27.235 3.561)" fill="#ed424b"/>
+          </g>
+          <text id="_76_" data-name="76%" transform="translate(18 76.407)" font-size="44" font-family="NunitoSans-Light, Nunito Sans" font-weight="300"><tspan x="46.816" y="44">76%</tspan></text>
+        </g>
+        <text id="Chart_title" data-name="Chart title" transform="translate(0 33)" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="127.59" y="24">Group Split</tspan></text>
+      </g>
+    </g>
+    <g id="UI_Element_Light_Donut_Single_Size-02" data-name="UI Element/Light/Donut/Single/Size-02" transform="translate(1373 2402)">
+      <g id="UI_elements_Donut_Single_Size-02" data-name="UI elements/Donut/Single/Size-02">
+        <g id="Mobile-chart-background-2" data-name="Mobile-chart-background">
+          <g id="Rectangle_Copy_16-3" data-name="Rectangle Copy 16" fill="#200f54" stroke="#e1e1e2" stroke-miterlimit="10" stroke-width="1">
+            <rect width="315" height="100" rx="12" stroke="none"/>
+            <rect x="0.5" y="0.5" width="314" height="99" rx="11.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Donut_size_01-color-01" data-name="Donut/size 01-color-01" transform="translate(228 13)">
+          <g id="Donut_chart_Copy_2" data-name="Donut chart Copy 2" transform="translate(0)">
+            <path id="Donut_1-2" data-name="Donut_1" d="M36,0a3,3,0,0,1,0,6A30.458,30.458,0,0,0,5.971,32.415a3,3,0,0,1-5.942-.83A36.458,36.458,0,0,1,36,0Z" transform="translate(0)" fill="rgba(115,136,169,0.35)"/>
+            <path id="Donut_0-2" data-name="Donut_0" d="M38.622,0A37.019,37.019,0,1,1,.366,31.8a3,3,0,1,1,5.941.84A30.994,30.994,0,1,0,38.36,6a3,3,0,0,1,.085-6Z" transform="translate(0 0)" fill="#ed424b"/>
+          </g>
+          <text id="_76_2" data-name="76%" transform="translate(7 23)" fill="#fff" font-size="22" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700"><tspan x="7.405" y="22">76%</tspan></text>
+        </g>
+        <text id="Additional_text" data-name="Additional text" transform="translate(19 54)" fill="#fff" font-size="16" font-family="NunitoSans-Regular, Nunito Sans" opacity="0.57"><tspan x="0" y="16">XX of total 3,158.79</tspan></text>
+        <text id="Title" transform="translate(19 22)" fill="#fff" font-size="22" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700"><tspan x="0" y="22">Karim Taha</tspan></text>
+      </g>
+    </g>
+    <g id="UI_Element_Light_Donut_Single_Size-02-2" data-name="UI Element/Light/Donut/Single/Size-02" transform="translate(1383 2514.5)">
+      <g id="UI_elements_Donut_Single_Size-02-2" data-name="UI elements/Donut/Single/Size-02">
+        <g id="Mobile-chart-background-3" data-name="Mobile-chart-background">
+          <g id="Rectangle_Copy_16-4" data-name="Rectangle Copy 16" fill="#200f54" stroke="#e1e1e2" stroke-miterlimit="10" stroke-width="1">
+            <rect width="315" height="100" rx="12" stroke="none"/>
+            <rect x="0.5" y="0.5" width="314" height="99" rx="11.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Donut_size_01-color-01-2" data-name="Donut/size 01-color-01" transform="translate(228 13)">
+          <g id="Donut_chart_Copy_2-2" data-name="Donut chart Copy 2" transform="translate(0 0)">
+            <path id="Donut_0-3" data-name="Donut_0" d="M38.622,0A37.019,37.019,0,1,1,.366,31.8a3,3,0,1,1,5.941.84A30.994,30.994,0,1,0,38.36,6a3,3,0,0,1,.085-6Z" transform="translate(74 0) rotate(90)" fill="#3d3a72"/>
+            <path id="Donut_1-3" data-name="Donut_1" d="M36,0a3,3,0,0,1,0,6A30.458,30.458,0,0,0,5.971,32.415a3,3,0,0,1-5.942-.83A36.458,36.458,0,0,1,36,0Z" transform="translate(74 0) rotate(90)" fill="#016bff"/>
+          </g>
+          <text id="_76_3" data-name="76%" transform="translate(7 23)" fill="#fff" font-size="22" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700"><tspan x="7.394" y="22">20%</tspan></text>
+        </g>
+        <text id="Additional_text-2" data-name="Additional text" transform="translate(19 54)" fill="#fff" font-size="16" font-family="NunitoSans-Regular, Nunito Sans" opacity="0.57"><tspan x="0" y="16">XX of total 3,158.79</tspan></text>
+        <text id="Title-2" data-name="Title" transform="translate(19 22)" fill="#fff" font-size="22" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700"><tspan x="0" y="22">Ahmed Nabil</tspan></text>
+      </g>
+    </g>
+    <g id="UI_Element_Light_Donut_Single_Size-02-3" data-name="UI Element/Light/Donut/Single/Size-02" transform="translate(1393 2627)">
+      <g id="UI_elements_Donut_Single_Size-02-3" data-name="UI elements/Donut/Single/Size-02">
+        <g id="Mobile-chart-background-4" data-name="Mobile-chart-background">
+          <g id="Rectangle_Copy_16-5" data-name="Rectangle Copy 16" fill="#200f54" stroke="#e1e1e2" stroke-miterlimit="10" stroke-width="1">
+            <rect width="315" height="100" rx="12" stroke="none"/>
+            <rect x="0.5" y="0.5" width="314" height="99" rx="11.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Donut_size_01-color-01-3" data-name="Donut/size 01-color-01" transform="translate(228 13)">
+          <g id="Donut_chart_Copy_2-3" data-name="Donut chart Copy 2" transform="translate(0)">
+            <path id="Donut_1-4" data-name="Donut_1" d="M36,0a3,3,0,0,1,0,6A30.458,30.458,0,0,0,5.971,32.415a3,3,0,0,1-5.942-.83A36.458,36.458,0,0,1,36,0Z" transform="translate(0)" fill="rgba(115,136,169,0.35)"/>
+            <path id="Donut_0-4" data-name="Donut_0" d="M38.622,0A37.019,37.019,0,1,1,.366,31.8a3,3,0,1,1,5.941.84A30.994,30.994,0,1,0,38.36,6a3,3,0,0,1,.085-6Z" transform="translate(0 0)" fill="#f2ca53"/>
+          </g>
+          <text id="_76_4" data-name="76%" transform="translate(7 23)" fill="#fff" font-size="22" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700"><tspan x="7.405" y="22">76%</tspan></text>
+        </g>
+        <text id="Additional_text-3" data-name="Additional text" transform="translate(19 54)" fill="#fff" font-size="16" font-family="NunitoSans-Regular, Nunito Sans" opacity="0.57"><tspan x="0" y="16">XX of total 3,158.79</tspan></text>
+        <text id="Title-3" data-name="Title" transform="translate(19 22)" fill="#fff" font-size="22" font-family="NunitoSans-Bold, Nunito Sans" font-weight="700"><tspan x="0" y="22">Ahmed Mohsen</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

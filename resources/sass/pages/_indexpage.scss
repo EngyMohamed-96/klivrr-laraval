@@ -1,0 +1,492 @@
+.homepage {
+
+    #intro {
+        width: 100vw;
+        height: 800px;
+        min-height: 800px;
+        position: relative;
+
+
+        @include breakpoint(lgmobile) {
+            height: 600px;
+            min-height: 600px;
+        }
+
+        @include breakpoint(mobile) {
+            height: 100vh;
+            min-height: 100vh;
+            margin-bottom: 30%;
+        }
+
+        .section-container {
+            @include breakpoint(tablet) {
+                position: relative;
+            }
+
+            @include breakpoint(mobile) {
+                padding-top: 8rem;
+            }
+
+        }
+
+        .bg {
+            position: absolute;
+            background: #060311;
+            background-image: url("../img/klivvr/bg-personal.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 800px;
+            z-index: -1;
+            width: 120%;
+            animation: moving 7.5s infinite ease-in-out;
+            overflow: hidden;
+        }
+
+
+        .data-wapper {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: #{$flex-start};
+            flex-direction: column;
+            color: #FFFFFF;
+
+            @include breakpoint(tablet) {
+                height: 55vh;
+                align-items: #{$flex-start};
+            }
+
+            @include breakpoint(mobile) {
+         
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            @include breakpoint(smmobile) {
+                padding-top: 3rem;
+                text-align: center;
+
+                p {
+                    margin: auto;
+                }
+            }
+
+            h1 {
+
+                font-family: bfont;
+                font-size: 45px;
+                margin-bottom: 15px;
+
+                @include breakpoint(lgmobile) {
+                    font-size: 35px;
+                }
+
+            }
+
+            p {
+                font-family: bfont;
+                width: 60%;
+                color: #fff;
+                font-size: 13px;
+                margin-bottom: 3rem;
+
+                @include breakpoint(lgmobile) {
+                    width: 100%;
+                }
+
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    padding: 25px;
+                    margin: 0;
+                }
+            }
+
+            button {
+                background-color: #5B28F4;
+                border: none;
+                color: #fff;
+                border-radius: 999px;
+                padding: 10px 20px;
+                cursor: pointer;
+                font-family: bfont;
+                font-size: 14px;
+              
+            }
+
+        }
+
+        .img-wrapper {
+            width: 100%;
+            top: 15%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            position: relative;
+
+            @include breakpoint(mobile) {
+                top: 5%;
+            }
+
+            .phone {
+                width: 60%;
+
+                @include breakpoint(mdlaptop) {
+                    width: 55%;
+
+                }
+
+                @include breakpoint(lgmobile) {
+                    width: 65%;
+                }
+
+                @include breakpoint(mobile) {
+                    width: 50%;
+                    right: 6%;
+                    position: relative;
+
+                }
+
+
+            }
+
+            .card-animate {
+                position: absolute;
+                width: 50%;
+                bottom: 20%;
+
+                #{$right}: 35%;
+                transform: translateX(-5px);
+                //    -webkit-backdrop-filter: blur(2px);
+                //  backdrop-filter: blur(2px);
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                @include breakpoint(mdlaptop) {
+                    width: 45%;
+
+                }
+
+                @include breakpoint(mobile) {
+
+                    width: 50%;
+                    #{$right}: 35%;
+                    bottom: 5%;
+
+                }
+
+                @include breakpoint(lgmobile) {
+
+                    width: 50%;
+                    #{$right}: 35%;
+
+                }
+
+            }
+
+
+
+        }
+
+
+
+    }
+
+    .control {
+        background: transparent linear-gradient(113deg, #C960C1 5%, #5b28f4 95%) 0% 0% no-repeat padding-box;
+        width: 100vw;
+        height: 300px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        .text-wrapper {
+
+
+            h1 {
+                color: #fff;
+                font-family: bfont;
+                text-transform: uppercase;
+            }
+
+            p {
+                color: #fff;
+                font-family: bfont;
+                font-size: 1rem;
+                // text-transform: capitalize;
+            }
+
+            .cir-k {
+                margin-bottom: 30px;
+
+            }
+
+        }
+    }
+
+    .two {
+
+        .scene {
+
+            margin-top: 25px;
+            border: 0.2px solid #E1E1E2;
+            border-radius: 25px;
+
+            position: relative;
+
+            height: 56vh;
+            background: #fff;
+
+            @include breakpoint(mdlaptop) {
+                height: 59vh;
+
+            }
+
+            @include breakpoint(tablet) {
+                height: 27vh;
+
+            }
+
+
+
+            @include breakpoint(mobile) {
+                height: 70vh;
+                margin-top: 30px;
+                padding: 1rem 0;
+
+            }
+
+            &.repeat {
+                margin-top: 0px;
+                margin-bottom: 2rem;
+                background-color: #F8F8F8;
+                height: 56vh;
+
+                @include breakpoint(mdlaptop) {
+                    height: 59vh;
+                }
+
+                @include breakpoint(tablet) {
+                    height: 27vh;
+
+                }
+
+
+                @include breakpoint(mobile) {
+                  
+                    height: 75vh;
+
+                    left: 0;
+                 
+
+                }
+            }
+
+            .text-wrapper {
+                height: 50vh;
+                display: flex;
+                justify-content: center;
+                align-items: #{$flex-start};
+                flex-direction: column;
+                padding: 0 5%;
+
+                @include breakpoint(tablet) {
+                    height: 25vh;
+
+                }
+
+                @include breakpoint(lgmobile) {
+
+                    height: auto;
+                    padding: 2rem;
+
+                }
+
+                h3 {
+                    font-size: 2.2rem;
+                    font-family: bfont;
+                    color: #200F54;
+
+                }
+
+                p {
+                    font-size: 1rem;
+                    font-family: bfont;
+                    color: #200F54;
+                    line-height: 1.3;
+                    padding-top: 1rem;
+                    margin-bottom: 2rem;
+                    width: 75%;
+                }
+
+                a {
+
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-family: bfont;
+                    color: #5B28F4;
+                    @include breakpoint(mobile) {
+                        font-size:1.3rem;
+                    }
+                    svg {
+                        margin-#{$left}: 2rem;
+
+                    }
+                }
+
+            }
+        }
+
+        .img-container {
+            position: relative;
+            width: 100%;
+
+
+            .account-rec {
+                width: 21rem;
+                background-color: rgba(255, 255, 255, 0.6);
+                border-radius: 0.6rem;
+                position: absolute;
+
+                display: flex;
+                #{$right}: 18rem;
+                bottom: 0.5rem;
+                padding: 1rem;
+                -webkit-backdrop-filter: blur(4px);
+                backdrop-filter: blur(4px);
+
+                -webkit-filter: drop-shadow(5px 5px 15px #DBDBDB);
+                filter: drop-shadow(5px 5px 15px #DBDBDB);
+                border: 0.3px solid #DBDBDB;
+
+                @include breakpoint(mdlaptop) {
+                    width: 19rem;
+                    #{$right}: 14rem;
+                    bottom: -22.5rem;
+
+                }
+
+                @include breakpoint(lgmobile) {
+                    width: 19rem;
+                    right: 9rem;
+
+
+                }
+
+                @include breakpoint(lgmobile) {
+                    width: 22rem;
+                    right: 9rem;
+                    bottom: 1.5rem;
+
+                }
+
+
+                img {
+                    width: 4rem;
+                    height: 4rem;
+                    margin: auto;
+                    margin-#{$right}: 1rem;
+                }
+               
+
+   
+
+
+                h4 {
+                    color: #5B28F4;
+                    font-size: 1rem;
+                    font-family: mfont;
+                }
+
+                p {
+                    color: #7E7E7E;
+                    font-size: 0.6rem;
+                    font-family: nfont;
+                    margin: 0;
+                }
+
+            }
+
+            @include breakpoint(lgmobile) {
+                left: 0;
+            }
+            
+            @include breakpoint(mobile) {
+             left: 0;
+             top: -10px;
+            }
+
+            &.l-2 {
+                left: 0;
+
+            }
+
+            @include breakpoint(mobile) {
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+
+
+                @include breakpoint(lgmobile) {
+                    top: 0;
+                }
+         
+
+
+
+            }
+
+        }
+
+    }
+
+
+
+
+    .third {
+        width: 100vw;
+        background-image: url("../img/klivvr/third-bg.png");
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        @include breakpoint(tablet) {
+            display: none;
+
+        }
+
+        .data-warpper {
+            position: absolute;
+            bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100vw;
+
+            h1 {
+                font-family: 'Product Sans';
+                color: #FFFFFF;
+                font-weight: bold;
+
+            }
+
+            p {
+                font-family: nfont;
+                color: #fff;
+                font-size: 0.7rem;
+
+            }
+        }
+
+
+    }
+}

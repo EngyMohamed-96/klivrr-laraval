@@ -1,0 +1,56 @@
+.download {
+    height: auto;
+    padding: 2rem;
+
+    .data-wrapper {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .data-logos {
+            margin-bottom: 2rem;
+          
+            img {
+                cursor: pointer;
+                @include breakpoint(lgmobile) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        h1 {
+            color: #200F54;
+            font-family: Abfont;
+            font-size: 2rem;
+        }
+        p {
+            color: #200F54;
+            font-size: 0.9rem;
+            font-family: nfont;
+            padding-bottom: 2rem;
+        }
+
+        .play {
+            padding-#{$left}: 1rem;
+         
+
+            @include breakpoint(lgmobile) {
+
+                padding-#{$left}: 0;
+                padding-top: 1rem;
+
+            }
+        }
+
+        .p-diff {
+            color: #A7A7A7;
+            font-family: nfont;
+            font-size: 0.6rem;
+
+        }
+
+    }
+}

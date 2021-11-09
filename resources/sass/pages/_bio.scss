@@ -1,0 +1,100 @@
+.biopage {
+
+    .careers {
+        background: #ccc;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .bio {
+
+            background: transparent linear-gradient(116deg, #7648FF 0%, #8F69FF 100%) 0% 0% no-repeat padding-box;
+            border-radius: 12px;
+            margin: auto;
+            margin-top: 6rem;
+            height: 80vh;
+position: relative;
+
+            @include breakpoint(lgmobile) {
+                padding: 1rem;
+                height: 60vh;
+            }
+
+            @include breakpoint(mobile) {
+                height: 85vh;
+            }
+
+            img {
+                width: 88.5%;
+                @include breakpoint(mdlaptop) {
+                    width: 84%;
+                }
+                @include breakpoint(mobile) {
+                    width: 55%;
+                    display: flex;
+            margin: auto;
+                }
+              
+            }
+
+            svg {
+               position: absolute;
+               left: 5rem;
+               @include breakpoint(lgmobile) {
+                left: 3rem;
+            }
+            @include breakpoint(mobile) {
+                left: 3rem;
+            }
+            }
+
+            .member-wrapper {
+                height: 55%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                width: 100%;
+                margin: 5rem;
+                color: #fff;
+
+                @include breakpoint(lgmobile) {
+
+                    height: auto;
+                    padding: 2rem;
+                    margin: 0;
+                }
+
+                h1 {
+                    font-family: bfont;
+                    font-size: 53px;
+
+                    @include breakpoint(lgmobile) {
+                       
+                        font-size: 40px;
+                    }
+                    @include breakpoint(mobile) {
+                       
+                        font-size: 25px;
+                    }
+                }
+
+                p {
+                    font-family: bfont;
+                    font-size: 16px;
+
+                    @include breakpoint(lgmobile) {
+                        font-size: 14px;
+                    }
+                    
+                    @include breakpoint(mobile) {
+                        font-size: 10px;
+                    }
+
+                }
+            }
+        }
+    }
+}

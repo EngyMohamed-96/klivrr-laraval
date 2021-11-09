@@ -1,0 +1,22 @@
+.table td{
+    vertical-align: middle;
+}
+.table .vertical-end{
+    vertical-align: bottom;
+}
+.td-img img{
+  /* border: 1px solid gray; */
+  object-fit: contain;
+
+  width: 95%;
+  height: 200px
+}
+.content .card .head-dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .card .head-dashboard form {
+  flex-basis: 15%;
+  margin-bottom: 0;
+}
